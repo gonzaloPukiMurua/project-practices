@@ -1,0 +1,14 @@
+.navbar{
+    width: 100vw;
+    //max-height: 90px;
+    height: auto;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar--light{
+    background-color: $secondaryColor;
+}

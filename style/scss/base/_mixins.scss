@@ -1,0 +1,12 @@
+//Configurar elemento como Flex en columna
+@mixin setFlexBox-column-spaceEvenly{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin setPadding-Margin{
+    
+}
+

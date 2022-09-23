@@ -1,0 +1,26 @@
+.footer{
+    width: 100vw;
+    height: auto;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer--color{
+    background-color: $mainColor;
+}
+
+.footer__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    min-height: 50px;
+    max-height: 250p;
+    padding: 1rem;
+    margin: 1rem;
+}
